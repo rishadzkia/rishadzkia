@@ -1,0 +1,28 @@
+/* SELECTOR UNIVESAL: MENGUBAH SEMUA TAMPILAN DI html */
+/* Panggil dengan tanda bintang */
+* {
+  margin: 0%; /* JARAK ANTAR KONTEN*/
+  padding: 0%; /* JARAK KEDALAM KONTEN */
+  background-color: bisque;
+}
+
+/*SELECTOR CLASS: MENGUBAH TAMPILAN BERDASARKAN ATRIBUT " CLASS "*/
+/* Panggil dengan tanda titik + isian kutip di atribut class */
+.pertama {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-top: 20%;
+}
+
+.ketiga {
+  background-color: aquamarine;
+}
+/*SELECTOR ELEMENT: MENGUBAH APA YANG DIPANGGIL*/
+/* MENGUBAH SEMUA YANG H4 JADINYA */
+h4 {
+  color: yellowgreen;
+}
+/*SELECTOR ID: */
+/*Panggil pakai #*/
+#kedua {
+  background-color: aliceblue;
+}
